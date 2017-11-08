@@ -18,7 +18,7 @@ body {
   z-index: 1;
 }
 .logo {
-  display: flex;
+  display: inline-flex;
   height: 50px;
   padding-left: 10px;
 }
@@ -49,7 +49,7 @@ span a {
   text-align: center;
   justify-content: center;
   align-items: center;
-  top: 69px;
+  padding-top: 69px;
   height: 700px;
   width: 1200px;
 }
@@ -68,7 +68,7 @@ h2, h4 {
   position: relative;
   display: inline-flex;
   flex-direction: column;
-  top: 100px;
+  padding-top: 60px;
   width: 1000px;
 }
 
@@ -82,7 +82,7 @@ h2, h4 {
 .types {
   display: inline-flex;
   flex-direction: column;
-  padding: 10px;
+  padding: 15px;
 }
 
 .types img {
@@ -91,6 +91,43 @@ h2, h4 {
 }
 
 .types span {
-  padding-top: 10px;
+  padding-top: 15px;
   font-weight: bold;
+}
+
+.locations {
+  background-image: url("../images/img-locations-background.jpg");
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 60px;
+  height: 500px;
+  width: 1200px;
+}
+
+.locationcontainer {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.area {
+  background-color: black;
+  margin-top: 15px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  width: 300px;
+  height: 300px;
+}
+
+.area h3{
+  opacity: 1;
+}
+
+.area p {
+  padding: 10px;
+  opacity: 1;
 }
