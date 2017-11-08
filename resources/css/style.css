@@ -68,7 +68,7 @@ h2, h4 {
   position: relative;
   display: inline-flex;
   flex-direction: column;
-  padding-top: 60px;
+  padding-top: 69px;
   width: 1000px;
 }
 
@@ -102,7 +102,8 @@ h2, h4 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  top: 60px;
+  top: 69px;
+  padding-top: 50px;
   height: 500px;
   width: 1200px;
 }
@@ -130,4 +131,16 @@ h2, h4 {
 .area p {
   padding: 10px;
   opacity: 1;
+}
+
+.teacozy {
+  position: relative;
+  padding-top: 69px;
+}
+
+.footer {
+  position: relative;
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 69px;
 }
